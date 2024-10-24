@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "name.modid.mixin",
+	"package": "name.modid.chillmaster.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"

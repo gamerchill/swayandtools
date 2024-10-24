@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"name.modid.Swayandtools"
+			"name.modid.chillmaster.Swayandtools"
 		],
 		"fabric-datagen": [
-			"name.modid.SwayandtoolsDataGenerator"
+			"name.modid.chillmaster.SwayandtoolsDataGenerator"
 		],
 		"client": [
-			"name.modid.swayandtoolsmodclient"
+			"name.modid.chillmaster.swayandtoolsmodclient"
 		]
 	},
 	"mixins": [
