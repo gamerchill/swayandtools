@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "swayandtools",
+	"version": "${version}",
+	"name": "Swayandtools",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/swayandtools/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.modid.Swayandtools"
+		],
+		"fabric-datagen": [
+			"name.modid.SwayandtoolsDataGenerator"
+		],
+		"client": [
+			"name.modid.swayandtoolsmodclient"
+		]
+	},
+	"mixins": [
+		"swayandtools.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.3",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
